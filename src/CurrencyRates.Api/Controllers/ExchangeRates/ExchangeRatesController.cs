@@ -1,4 +1,7 @@
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Threading;
+using System.Threading.Tasks;
 using CurrencyRates.Application.ExchangeRates.Queries;
 using CurrencyRates.Domain.Entities.ExchangeRates;
 using CurrencyRates.Domain.Entities.ExchangeRates.Commands;

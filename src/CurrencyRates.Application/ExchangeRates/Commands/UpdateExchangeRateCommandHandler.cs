@@ -1,3 +1,6 @@
+using System;
+using System.Threading;
+using System.Threading.Tasks;
 using Common.Repository.Repository;
 using Common.Repository.UnitOfWork;
 using CurrencyRates.Application.Exceptions;
