@@ -23,5 +23,10 @@
     <ItemGroup>
         <ProjectReference Include="..\CurrencyRates.Domain\CurrencyRates.Domain.csproj"/>
     </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Migrations\20240624094945_Initial.cs" />
+      <Compile Remove="Migrations\20240624094945_Initial.Designer.cs" />
+    </ItemGroup>
     
 </Project>
