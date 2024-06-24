@@ -94,7 +94,7 @@ public static class ServiceConfiguration
                 var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
                 swagger.IncludeXmlComments(xmlPath, includeControllerXmlComments: true);
-                swagger.DocumentFilter<HealthChecksFilter>();
+                // swagger.DocumentFilter<HealthChecksFilter>();
             });
 
         return services;
