@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "9esl9W/11mWoDmECy9Z3RT3UKLA99liRY8QbrMB7pKmgxsT++/yVwRDaZlbRV1Mo0nBieWxdR8BSUaYBiSW+cA==",
+  "dgSpecHash": "mCUsv5vV7jL9rFtW3QNA/fAf0OAHLcfK+7pYlzubl3z9S4d6jBqsLo5bB4OEG5JAmU9ltZXO12j6fZJpNCooWQ==",
   "success": true,
   "projectFilePath": "/Users/mberrish/Apps/CurrencyRates/src/CurrencyRates.Api/CurrencyRates.Api.csproj",
   "expectedPackageFiles": [
     "/Users/mberrish/.nuget/packages/aspnetcore.healthchecks.ui.client/8.0.1/aspnetcore.healthchecks.ui.client.8.0.1.nupkg.sha512",
     "/Users/mberrish/.nuget/packages/aspnetcore.healthchecks.ui.core/8.0.1/aspnetcore.healthchecks.ui.core.8.0.1.nupkg.sha512",
+    "/Users/mberrish/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/mberrish/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/mberrish/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
     "/Users/mberrish/.nuget/packages/berrishdev.common.repository/8.0.0/berrishdev.common.repository.8.0.0.nupkg.sha512",

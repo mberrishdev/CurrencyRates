@@ -1,4 +1,5 @@
-﻿using FluentValidation.AspNetCore;
+﻿using System.Reflection;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -85,6 +86,12 @@ public static class ServiceConfiguration
                 // var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 // var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
                 // swagger.IncludeXmlComments(xmlPath, includeControllerXmlComments: true);
+                swagger.DocumentFilter<HealthChecksFilter>();
+
+                // Set the comments path for the Swagger JSON and UI.
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                swagger.IncludeXmlComments(xmlPath, includeControllerXmlComments: true);
                 swagger.DocumentFilter<HealthChecksFilter>();
             });
 
