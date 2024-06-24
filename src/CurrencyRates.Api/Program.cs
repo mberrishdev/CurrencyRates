@@ -1,5 +1,3 @@
-using System;
-using Microsoft.AspNetCore.Builder;
 using CurrencyRates.Api.Infrastructure.StartupConfiguration;
 using Serilog;
 
